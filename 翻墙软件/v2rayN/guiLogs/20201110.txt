@@ -1,0 +1,1049 @@
+--------------------------------info[22:04:32]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.27 - 2020/10/24
+
+ 
+--------------------------------info[22:05:19]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.27 - 2020/10/24
+
+ 
+--------------------------------Base64Decode[22:05:28]--------------------------------
+System.FormatException: 输入的不是有效的 Base-64 字符串，因为它包含非 Base-64 字符、两个以上的填充字符，或者填充字符间包含非法字符。
+   在 System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 v2rayN.Utils.Base64Decode(String plainText)
+
+ 
+--------------------------------2020/11/10 22:08:16 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002d50c8, 0xc000190000, 0xc000304eb0, 0xc0002f5980, 0x10, 0x10, 0x2a42e210108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002d50c8, 0xfa0000, 0xc000304eb0, 0xc0002f5980, 0x1, 0x1, 0xc000308b00, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0003008c0, 0x190ea20, 0xc0002f05b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc000314340, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc000314000, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc000304a50, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:08:16]--------------------------------
+System.Exception: 2020/11/10 22:08:16 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002d50c8, 0xc000190000, 0xc000304eb0, 0xc0002f5980, 0x10, 0x10, 0x2a42e210108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002d50c8, 0xfa0000, 0xc000304eb0, 0xc0002f5980, 0x1, 0x1, 0xc000308b00, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0003008c0, 0x190ea20, 0xc0002f05b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc000314340, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc000314000, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc000304a50, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:08:34]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:08:34 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc000200ac0, 0xc000140000, 0xc0039ea9b0, 0xc000113950, 0x10, 0x10, 0x21cd35c07b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc000200ac0, 0xd00000, 0xc0039ea9b0, 0xc000113950, 0x1, 0x1, 0xc00011e820, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0038526e0, 0x166ea20, 0xc0002326d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0035824c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0038700c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003849bd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:08:34]--------------------------------
+System.Exception: 2020/11/10 22:08:34 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc000200ac0, 0xc000140000, 0xc0039ea9b0, 0xc000113950, 0x10, 0x10, 0x21cd35c07b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc000200ac0, 0xd00000, 0xc0039ea9b0, 0xc000113950, 0x1, 0x1, 0xc00011e820, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0038526e0, 0x166ea20, 0xc0002326d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0035824c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0038700c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003849bd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:08:54]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:08:54 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0001ca5b0, 0xc000110000, 0xc001bf2ff0, 0xc0001c5980, 0x10, 0x10, 0x1ff80a60108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0001ca5b0, 0xfa0000, 0xc001bf2ff0, 0xc0001c5980, 0x1, 0x1, 0xc0001e4840, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00385c640, 0x190ea20, 0xc0002845b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0001da4c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0038760c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00384dbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:08:54]--------------------------------
+System.Exception: 2020/11/10 22:08:54 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0001ca5b0, 0xc000110000, 0xc001bf2ff0, 0xc0001c5980, 0x10, 0x10, 0x1ff80a60108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0001ca5b0, 0xfa0000, 0xc001bf2ff0, 0xc0001c5980, 0x1, 0x1, 0xc0001e4840, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00385c640, 0x190ea20, 0xc0002845b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0001da4c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0038760c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00384dbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:10:25]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:10:25 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc00002a0a0, 0x18cea40, 0xc0039fc380, 0xc000190000, 0xc003914a50, 0xc0039fe980, 0x10, 0x10, 0x1cb6b7c0108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc00002a0a0, 0x18cea40, 0xc0039fc380, 0xd00000, 0xc003914a50, 0xc0039fe980, 0x1, 0x1, 0xc0039fbe80, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc003774aa0, 0x166ea20, 0xc00014e018)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0039b0a00, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037ac4c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037ae960, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:10:25]--------------------------------
+System.Exception: 2020/11/10 22:10:25 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc00002a0a0, 0x18cea40, 0xc0039fc380, 0xc000190000, 0xc003914a50, 0xc0039fe980, 0x10, 0x10, 0x1cb6b7c0108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc00002a0a0, 0x18cea40, 0xc0039fc380, 0xd00000, 0xc003914a50, 0xc0039fe980, 0x1, 0x1, 0xc0039fbe80, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc003774aa0, 0x166ea20, 0xc00014e018)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0039b0a00, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037ac4c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037ae960, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:12:22]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:12:22 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc000555f00, 0xc000070000, 0xc000568730, 0xc00377a090, 0x10, 0x10, 0x224671707b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc000555f00, 0xfa0000, 0xc000568730, 0xc00377a090, 0x1, 0x1, 0xc001fb6080, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037cea00, 0x190ea20, 0xc00028ab58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0037d4480, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037d44c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037d6960, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:12:23]--------------------------------
+System.Exception: 2020/11/10 22:12:22 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc000555f00, 0xc000070000, 0xc000568730, 0xc00377a090, 0x10, 0x10, 0x224671707b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc000555f00, 0xfa0000, 0xc000568730, 0xc00377a090, 0x1, 0x1, 0xc001fb6080, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037cea00, 0x190ea20, 0xc00028ab58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0037d4480, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037d44c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037d6960, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------connect timeout (5s): xibun.ml[22:12:42]--------------------------------
+System.TimeoutException: connect timeout (5s): xibun.ml
+   在 v2rayN.Handler.SpeedtestHandler.GetTcpingTime(String url, Int32 port)
+
+ 
+--------------------------------远程服务器返回错误: (500) 内部服务器错误。[22:12:42]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 v2rayN.Handler.SpeedtestHandler.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+
+ 
+--------------------------------connect timeout (5s): xibun.ml[22:13:17]--------------------------------
+System.TimeoutException: connect timeout (5s): xibun.ml
+   在 v2rayN.Handler.SpeedtestHandler.GetTcpingTime(String url, Int32 port)
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:14:49]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:14:49 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc00008e160, 0xc000190000, 0xc000545e50, 0xc000110020, 0x10, 0x10, 0x1af0f5b07b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc00008e160, 0xfa0000, 0xc000545e50, 0xc000110020, 0x1, 0x1, 0xc003a7c0a0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037da640, 0x190ea20, 0xc0002846d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc002ab64c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037f40c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037cfbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:14:50]--------------------------------
+System.Exception: 2020/11/10 22:14:49 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc00008e160, 0xc000190000, 0xc000545e50, 0xc000110020, 0x10, 0x10, 0x1af0f5b07b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc00008e160, 0xfa0000, 0xc000545e50, 0xc000110020, 0x1, 0x1, 0xc003a7c0a0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037da640, 0x190ea20, 0xc0002846d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc002ab64c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037f40c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037cfbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:14:53]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:14:53 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc003f50100, 0xc000090000, 0xc003e69cc0, 0xc003f54130, 0x10, 0x10, 0x28915f60108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc003f50100, 0xd00000, 0xc003e69cc0, 0xc003f54130, 0x1, 0x1, 0xc003f4f600, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037b45a0, 0x166ea20, 0xc000233d58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003f06600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037d00c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003779bd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:14:53]--------------------------------
+System.Exception: 2020/11/10 22:14:53 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc003f50100, 0xc000090000, 0xc003e69cc0, 0xc003f54130, 0x10, 0x10, 0x28915f60108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc003f50100, 0xd00000, 0xc003e69cc0, 0xc003f54130, 0x1, 0x1, 0xc003f4f600, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037b45a0, 0x166ea20, 0xc000233d58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003f06600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037d00c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003779bd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:15:39]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:15:39 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018349d0, 0xc000190000, 0xc0002a8b40, 0xc0000ad960, 0x10, 0x10, 0x1c4f4600108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018349d0, 0xfa0000, 0xc0002a8b40, 0xc0000ad960, 0x1, 0x1, 0xc0000c0ec0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0000f8780, 0x190ea20, 0xc00027c5b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0038332c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc00370cbc0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00087b2c0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:15:39]--------------------------------
+System.Exception: 2020/11/10 22:15:39 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018349d0, 0xc000190000, 0xc0002a8b40, 0xc0000ad960, 0x10, 0x10, 0x1c4f4600108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018349d0, 0xfa0000, 0xc0002a8b40, 0xc0000ad960, 0x1, 0x1, 0xc0000c0ec0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0000f8780, 0x190ea20, 0xc00027c5b8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0038332c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc00370cbc0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00087b2c0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:17:05]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:17:05 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc002f28d70, 0xc000140000, 0xc0020c9cc0, 0xc00011f940, 0x10, 0x10, 0x20045340108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc002f28d70, 0xd00000, 0xc0020c9cc0, 0xc00011f940, 0x1, 0x1, 0xc000124860, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037da780, 0x166ea20, 0xc000238b58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003466500, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037f80c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037cdbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:17:05]--------------------------------
+System.Exception: 2020/11/10 22:17:05 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc002f28d70, 0xc000140000, 0xc0020c9cc0, 0xc00011f940, 0x10, 0x10, 0x20045340108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc002f28d70, 0xd00000, 0xc0020c9cc0, 0xc00011f940, 0x1, 0x1, 0xc000124860, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037da780, 0x166ea20, 0xc000238b58)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003466500, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037f80c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037cdbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:19:08]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:19:08 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018c5300, 0xc000190000, 0xc0018bfb30, 0xc00009b930, 0x10, 0x10, 0x20c84560108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018c5300, 0xfa0000, 0xc0018bfb30, 0xc00009b930, 0x1, 0x1, 0xc0000dc880, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0038325a0, 0x190ea20, 0xc0002846d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0034e24c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc00384e0c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037fbbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:19:08]--------------------------------
+System.Exception: 2020/11/10 22:19:08 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018c5300, 0xc000190000, 0xc0018bfb30, 0xc00009b930, 0x10, 0x10, 0x20c84560108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0018c5300, 0xfa0000, 0xc0018bfb30, 0xc00009b930, 0x1, 0x1, 0xc0000dc880, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0038325a0, 0x190ea20, 0xc0002846d8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0034e24c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc00384e0c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037fbbd0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:20:52]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:20:52 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0001246b0, 0xc000090000, 0xc000827310, 0xc000121a90, 0x10, 0x10, 0x2170e450108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0001246b0, 0xd00000, 0xc000827310, 0xc000121a90, 0x3, 0x172ac20, 0xc0000e7760, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00377c640, 0xc000238b40, 0xc000493d70)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc000734600, 0xc0037aecc0, 0xc000493db8)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037c61c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00376fef0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:20:53]--------------------------------
+System.Exception: 2020/11/10 22:20:52 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0001246b0, 0xc000090000, 0xc000827310, 0xc000121a90, 0x10, 0x10, 0x2170e450108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0001246b0, 0xd00000, 0xc000827310, 0xc000121a90, 0x3, 0x172ac20, 0xc0000e7760, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00377c640, 0xc000238b40, 0xc000493d70)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc000734600, 0xc0037aecc0, 0xc000493db8)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037c61c0, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc00376fef0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:22:31]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:22:31 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002cc648, 0xc000190000, 0xc003982820, 0xc000167ac0, 0x10, 0x10, 0x1b3cd0e0108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002cc648, 0xfa0000, 0xc003982820, 0xc000167ac0, 0x1, 0x1, 0xc0001749a0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037bc640, 0x190ea20, 0xc0002867f8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0037da600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037da200, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037adef0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:22:31]--------------------------------
+System.Exception: 2020/11/10 22:22:31 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002cc648, 0xc000190000, 0xc003982820, 0xc000167ac0, 0x10, 0x10, 0x1b3cd0e0108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0002cc648, 0xfa0000, 0xc003982820, 0xc000167ac0, 0x1, 0x1, 0xc0001749a0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0037bc640, 0x190ea20, 0xc0002867f8)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0037da600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037da200, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037adef0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:23:34]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:23:34 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0005c2028, 0xc000140000, 0xc003e5e230, 0xc0022be6f0, 0x10, 0x10, 0x1f73b7307b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0005c2028, 0xd00000, 0xc003e5e230, 0xc0022be6f0, 0x1, 0x1, 0xc003e3abe0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc003c7a780, 0x166ea20, 0xc0000fa138)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003c80600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc003c80300, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003c825f0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:23:34]--------------------------------
+System.Exception: 2020/11/10 22:23:34 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0005c2028, 0xc000140000, 0xc003e5e230, 0xc0022be6f0, 0x10, 0x10, 0x1f73b7307b0, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000094058, 0x18cea40, 0xc0005c2028, 0xd00000, 0xc003e5e230, 0xc0022be6f0, 0x1, 0x1, 0xc003e3abe0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc003c7a780, 0x166ea20, 0xc0000fa138)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc003c80600, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc003c80300, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc003c825f0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:25:31]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:25:31 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0008f37d8, 0xc000070000, 0xc00209a280, 0xc000069540, 0x10, 0x10, 0x239c3880108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0008f37d8, 0xfa0000, 0xc00209a280, 0xc000069540, 0x1, 0x1, 0xc00397ebe0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00377e820, 0x190ea20, 0xc00014e138)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc002099080, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037b4300, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037b65f0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:25:31]--------------------------------
+System.Exception: 2020/11/10 22:25:31 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0008f37d8, 0xc000070000, 0xc00209a280, 0xc000069540, 0x10, 0x10, 0x239c3880108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x1b6d5c0, 0xc00002a0a0, 0x1b6ea40, 0xc0008f37d8, 0xfa0000, 0xc00209a280, 0xc000069540, 0x1, 0x1, 0xc00397ebe0, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc00377e820, 0x190ea20, 0xc00014e138)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc002099080, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0037b4300, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0037b65f0, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------info[22:26:07]--------------------------------
+System.Exception: Webserver prefixes http://*:10810/pac/
+
+ 
+--------------------------------拒绝访问。[22:26:07]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.Base.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[22:26:07]--------------------------------
+System.Exception: Webserver InitServer 拒绝访问。
+
+ 
+--------------------------------info[22:26:07]--------------------------------
+System.Exception: WebserverB at 127.0.0.1
+
+ 
+--------------------------------info[22:26:07]--------------------------------
+System.Exception: WebserverB running...
+
+ 
+--------------------------------info[22:26:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:26:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:26:16]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:26:37]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------2020/11/10 22:26:37 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000110058, 0x18cea40, 0xc00008fd90, 0xc0001c0000, 0xc0007e2730, 0xc000139c80, 0x10, 0x10, 0x1b38dc80108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000110058, 0x18cea40, 0xc00008fd90, 0xd00000, 0xc0007e2730, 0xc000139c80, 0x1, 0x1, 0xc00017f240, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0006e4960, 0x166ea20, 0xc000176018)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0006f0840, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0006f0440, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0006f2640, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+[22:26:37]--------------------------------
+System.Exception: 2020/11/10 22:26:37 Using default config:  C:\Users\闄堟旦\Desktop\v2rayN\config.json
+panic: Calling Domain() on an IPv4Address.
+
+goroutine 1 [running]:
+v2ray.com/core/common/net.ipv4Address.Domain(...)
+	v2ray.com/core/common/net/address.go:132
+v2ray.com/core/transport/internet/tcp.ListenTCP(0x18cd5c0, 0xc000110058, 0x18cea40, 0xc00008fd90, 0xc0001c0000, 0xc0007e2730, 0xc000139c80, 0x10, 0x10, 0x1b38dc80108, ...)
+	v2ray.com/core/transport/internet/tcp/hub.go:49 +0x103
+v2ray.com/core/transport/internet.ListenTCP(0x18cd5c0, 0xc000110058, 0x18cea40, 0xc00008fd90, 0xd00000, 0xc0007e2730, 0xc000139c80, 0x1, 0x1, 0xc00017f240, ...)
+	v2ray.com/core/transport/internet/tcp_hub.go:73 +0x296
+v2ray.com/core/app/proxyman/inbound.(*tcpWorker).Start(0xc0006e4960, 0x166ea20, 0xc000176018)
+	v2ray.com/core/app/proxyman/inbound/worker.go:114 +0xbc
+v2ray.com/core/app/proxyman/inbound.(*AlwaysOnInboundHandler).Start(0xc0006f0840, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/always.go:151 +0x6d
+v2ray.com/core/app/proxyman/inbound.(*Manager).Start(0xc0006f0440, 0x0, 0x0)
+	v2ray.com/core/app/proxyman/inbound/inbound.go:97 +0x103
+v2ray.com/core.(*Instance).Start(0xc0006f2640, 0x0, 0x0)
+	v2ray.com/core/v2ray.go:337 +0xb2
+main.main()
+	v2ray.com/core/main/main.go:155 +0x169
+
+   在 v2rayN.Handler.V2rayHandler.V2rayStart()
+
+ 
+--------------------------------info[22:26:37]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:26:37]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:26:37]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:26:39]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:27:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------进程已退出，因此无法获得所请求的信息。[22:27:37]--------------------------------
+System.InvalidOperationException: 进程已退出，因此无法获得所请求的信息。
+   在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_MainWindowHandle()
+   在 System.Diagnostics.Process.CloseMainWindow()
+   在 v2rayN.Handler.V2rayHandler.KillProcess(Process p)
+
+ 
+--------------------------------info[22:29:16]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.27 - 2020/10/24
+
+ 
+--------------------------------info[22:29:17]--------------------------------
+System.Exception: Webserver prefixes http://*:10810/pac/
+
+ 
+--------------------------------拒绝访问。[22:29:17]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.Base.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[22:29:18]--------------------------------
+System.Exception: Webserver InitServer 拒绝访问。
+
+ 
+--------------------------------info[22:29:18]--------------------------------
+System.Exception: WebserverB at 127.0.0.1
+
+ 
+--------------------------------info[22:29:18]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:29:18]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:29:19]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:29:41]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:29:41]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:29:41]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:30:33]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:30:33]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:30:33]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:30:35]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:30:35]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:34:51]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:34:51]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:34:51]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:34:52]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:35:30]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:35:30]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:35:32]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:41:06]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:41:06]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:41:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:42:48]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:42:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:42:50]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:42:50]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:48:31]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[22:48:31]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:48:33]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:48:33]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:48:55]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:48:57]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:50:41]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[23:17:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[23:17:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[23:17:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[23:17:47]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 

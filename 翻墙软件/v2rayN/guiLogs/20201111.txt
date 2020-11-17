@@ -1,0 +1,497 @@
+--------------------------------info[16:23:45]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.27 - 2020/10/24
+
+ 
+--------------------------------info[16:23:47]--------------------------------
+System.Exception: Webserver prefixes http://*:10810/pac/
+
+ 
+--------------------------------拒绝访问。[16:23:47]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.Base.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[16:23:47]--------------------------------
+System.Exception: Webserver InitServer 拒绝访问。
+
+ 
+--------------------------------info[16:23:47]--------------------------------
+System.Exception: WebserverB at 127.0.0.1
+
+ 
+--------------------------------info[16:23:47]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:23:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:23:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:02]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:02]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:08]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[16:24:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:17]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[16:24:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:24:18]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:25:33]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:25:42]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:31:12]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:31:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:45:38]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:46:46]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[16:46:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:46:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:46:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:08]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[16:47:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:44]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:44]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[16:47:44]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[16:47:46]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:02:08]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:02:09]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:02:09]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:02:10]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:03:01]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:03:01]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:03:01]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:03:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:03:38]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:06:31]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:06:41]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------info[17:07:55]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:07:55]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:07:55]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:07:55]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:07:57]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:08:03]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:08:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:08:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:09:21]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:09:29]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------info[17:10:03]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:10:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:10:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:10:04]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:10:25]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:10:25]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:10:25]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:03]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:11:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:03]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:05]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:05]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:12]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:11:12]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:12]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:23]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:11:23]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:11:23]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------远程服务器返回错误: (503) 服务器不可用。[17:11:39]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 v2rayN.Handler.DownloadHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------info[17:12:16]--------------------------------
+System.Exception: Webserver at *
+
+ 
+--------------------------------info[17:12:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:12:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:12:18]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:12:18]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:16:17]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[17:28:22]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:41:49]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:41:51]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:41:52]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:41:53]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:42:02]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:42:02]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:42:04]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:42:04]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:42:07]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[19:51:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:00:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:21:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:30:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:37:23]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:45:19]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:45:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:54:35]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:57:08]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:57:10]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:57:12]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:58:11]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:59:34]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:59:36]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[20:59:38]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:07:54]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:08:37]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:08:39]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:08:40]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:14:54]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:14:55]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:14:57]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:19:14]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:30:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:45:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:48:13]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[21:48:24]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:00:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:15:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:45:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[22:56:52]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
+--------------------------------info[23:00:48]--------------------------------
+System.Exception: WebserverB Request 127.0.0.1
+
+ 
