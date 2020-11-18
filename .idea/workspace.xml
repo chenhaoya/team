@@ -11,17 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b49c2ec0-3192-4ad2-b17e-109d660ed3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/001.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图片.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\Git\cmd\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -68,7 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,6 +78,8 @@
       <updated>1605680054340</updated>
       <workItem from="1605680057862" duration="7915000" />
       <workItem from="1605693312042" duration="1767000" />
+      <workItem from="1605694181084" duration="512000" />
+      <workItem from="1605694708546" duration="1254000" />
     </task>
     <servers />
   </component>
@@ -102,23 +96,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/team" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1020" y="202" key="FileChooserDialogImpl" timestamp="1605693104632">
+    <state x="1102" y="309" key="#Notifications" timestamp="1605694249476">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1020" y="202" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605693104632" />
+    <state x="1102" y="309" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1605694249476" />
+    <state x="1020" y="202" key="FileChooserDialogImpl" timestamp="1605695900279">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1020" y="202" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605695900279" />
     <state x="1202" y="427" key="Github.CreateGistDialog" timestamp="1605693527723">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1202" y="427" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605693527723" />
-    <state x="757" y="167" width="1141" height="883" key="SettingsEditor" timestamp="1605693462765">
+    <state x="767" y="87" width="1141" height="885" key="SettingsEditor" timestamp="1605695968752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="757" y="167" width="1141" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605693462765" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1605692802126">
+    <state x="767" y="87" width="1141" height="885" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605695968752" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1605694239831">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605692802126" />
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605694239831" />
   </component>
 </project>
